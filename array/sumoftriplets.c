@@ -13,4 +13,5 @@ int main(){
         }
     }
     printf("The total triplets that equal to six are: %d",count);
+    printf("Hello");
 }
