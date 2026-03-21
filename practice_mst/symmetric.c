@@ -11,11 +11,19 @@ int main(){
             printf("Input value for r%d, c%d: ", m,n);
             scanf("%d",&arr[m][n]);
         }
-    for (int i=0;i<c;i++){
-        for(int j=0;j<r;j++){
-            printf("%d ",arr[j][i]);
-        }
-        printf("\n");
     }
+    int dig=0;
+    for(int i=0;i<r;i++){
+        for(int j=0;j<c;j++){
+            if(arr[i][j]==arr[j][i]){
+                dig++;
+            }
+        }
+    }
+    if (dig==r*c){
+        printf("The matrix is symmetric");
+    }
+    else{
+        printf("The matrix is not symmetric");
     }
 }
