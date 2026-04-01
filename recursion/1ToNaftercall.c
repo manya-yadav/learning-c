@@ -1,3 +1,4 @@
+//print 1 to n numbers without extra stuff
 #include<stdio.h>
 void nTo1(int n){
     if(n==0) return;

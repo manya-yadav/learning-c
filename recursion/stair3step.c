@@ -9,5 +9,5 @@ int main(){
     int n;
     printf("Enter stair number: ");
     scanf("%d",&n);
-    printf("Number of ways stairs can be climbed in combination of 1 and 2 steps is %d.",step(n));
+    printf("Number of ways stairs can be climbed in combination of 1,2 and 3 steps is %d.",step(n));
 }
